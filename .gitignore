@@ -1,0 +1,142 @@
+############################################
+# .NET / ASP.NET Core / Blazor
+############################################
+
+# Build results
+bin/
+obj/
+out/
+
+# Rider / ReSharper
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Visual Studio
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+############################################
+# Blazor / Web
+############################################
+
+# Blazor WebAssembly
+wwwroot/_framework/
+wwwroot/_content/
+
+# Generated static web assets
+wwwroot/**/scopedcss/
+wwwroot/**/bundle.scp.css
+wwwroot/**/*.css.map
+
+############################################
+# .NET tooling
+############################################
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+.nuget/cache/
+.nuget/temp/
+
+# dotnet tools
+.dotnet/tools/
+
+############################################
+# Logs & diagnostics
+############################################
+
+*.log
+*.tmp
+*.temp
+*.trace
+
+############################################
+# OS generated
+############################################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+############################################
+# Environment / Secrets
+############################################
+
+# App settings overrides
+appsettings.Development.json
+appsettings.Local.json
+
+# Environment files
+.env
+.env.*
+
+# User secrets
+secrets.json
+
+############################################
+# Azure / Cloud
+############################################
+
+# Azure publish profiles
+*.publishsettings
+Properties/PublishProfiles/
+
+# Azure Functions / App Service temp
+.azure/
+
+############################################
+# Test artifacts
+############################################
+
+TestResults/
+coverage/
+coverage.cobertura.xml
+
+############################################
+# Misc
+############################################
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# SQL Server / LocalDB
+*.mdf
+*.ldf
+
+# Node (if used for tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Azure Cosmos Emulator
+__azurite_db__/
+__azurite_db_queue__/
+__azurite_db_table__/
+
+# AI / local model cache
+.ai-cache/

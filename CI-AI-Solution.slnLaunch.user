@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CI-AI.API\\CI-AI.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CI-AI.App\\CI-AI.App.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
